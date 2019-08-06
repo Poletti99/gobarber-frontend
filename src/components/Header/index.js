@@ -5,6 +5,8 @@ import { Container, Content, Profile } from './styles';
 
 import logo from '~/assets/purpleLogo.svg';
 
+import Notifications from '../Notifications';
+
 export default function Header() {
   return (
     <Container>
@@ -15,6 +17,7 @@ export default function Header() {
         </nav>
 
         <aside>
+          <Notifications />
           <Profile>
             <div>
               <strong>Victor Poletti</strong>
